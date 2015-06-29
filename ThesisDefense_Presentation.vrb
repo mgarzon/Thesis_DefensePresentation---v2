@@ -1,0 +1,10 @@
+\frametitle{Refactoring to Create Associations (3)}
+\underline{Umple code after transformation 2b (OUTPUT): }
+\begin{lstlisting}[style=UmpleOutStyle]
+
+class Mentor {
+ 0..1 -- 0..* Student;
+}
+class Student {/*The rest of the code*/}
+
+\end{lstlisting}
